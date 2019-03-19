@@ -1,0 +1,138 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "name"
+      ]
+    },
+    "utter_notfunny": {
+      "slots": []
+    },
+    "utter_companyinfo": {
+      "slots": []
+    },
+    "utter_yexist": {
+      "slots": []
+    },
+    "utter_bye": {
+      "slots": []
+    },
+    "utter_hobby": {
+      "slots": []
+    },
+    "utter_chatbot": {
+      "slots": []
+    },
+    "action_dogFact": {
+      "slots": []
+    },
+    "utter_whyhere": {
+      "slots": []
+    },
+    "utter_single": {
+      "slots": []
+    },
+    "utter_parents": {
+      "slots": []
+    },
+    "utter_tired": {
+      "slots": []
+    },
+    "action_pun": {
+      "slots": []
+    },
+    "utter_jobscope": {
+      "slots": []
+    },
+    "action_catFact": {
+      "slots": []
+    },
+    "utter_dice": {
+      "slots": []
+    },
+    "utter_help": {
+      "slots": []
+    },
+    "utter_do": {
+      "slots": []
+    },
+    "utter_food": {
+      "slots": []
+    },
+    "utter_thank": {
+      "slots": []
+    },
+    "utter_clever": {
+      "slots": []
+    },
+    "utter_flipcoin": {
+      "slots": []
+    },
+    "utter_where": {
+      "slots": []
+    },
+    "utter_sad": {
+      "slots": []
+    },
+    "utter_program": {
+      "slots": []
+    },
+    "utter_Introduction": {
+      "slots": []
+    },
+    "utter_bored": {
+      "slots": []
+    },
+    "utter_cheerup": {
+      "slots": []
+    },
+    "utter_movie": {
+      "slots": []
+    },
+    "utter_feeling": {
+      "slots": []
+    },
+    "utter_lonely": {
+      "slots": []
+    },
+    "action_dadjoke": {
+      "slots": []
+    },
+    "utter_age": {
+      "slots": []
+    },
+    "action_pandafact": {
+      "slots": []
+    },
+    "utter_thinking": {
+      "slots": []
+    },
+    "utter_exercise": {
+      "slots": []
+    },
+    "utter_born": {
+      "slots": []
+    },
+    "action_joke": {
+      "slots": []
+    },
+    "utter_AI": {
+      "slots": []
+    },
+    "utter_drink": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.12.0",
+  "python": "3.6.8",
+  "max_histories": [
+    3,
+    3
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy"
+  ],
+  "trained_at": "20190318-183910"
+}

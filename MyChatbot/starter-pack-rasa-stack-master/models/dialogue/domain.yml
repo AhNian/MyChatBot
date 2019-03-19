@@ -1,0 +1,273 @@
+%YAML 1.1
+---
+actions:
+- action_weather_ActionGetWeather
+- actions_ActionWeather
+- action_joke
+- action_catFact
+- action_dogFact
+- action_pun
+- action_dadjoke
+- action_pandafact
+- utter_name
+- utter_thank
+- utter_greet
+- utter_bye
+- utter_Introduction
+- utter_IntroductionWN
+- utter_help
+- utter_feeling
+- utter_born
+- utter_hobby
+- utter_clever
+- utter_fun
+- utter_bored
+- utter_lonely
+- utter_sad
+- utter_cheerup
+- utter_thinking
+- utter_tired
+- utter_age
+- utter_single
+- utter_movie
+- utter_food
+- utter_drink
+- utter_do
+- utter_aboutyourself
+- utter_where
+- utter_companyinfo
+- utter_rightnow
+- utter_whyhere
+- utter_yexist
+- utter_notfunny
+- utter_exercise
+- utter_drama
+- utter_botfeeling
+- utter_parents
+- utter_dice
+- utter_flipcoin
+- utter_jobscope
+- utter_chatbot
+- utter_AI
+- utter_program
+config:
+  store_entities_as_slots: true
+entities:
+- name
+forms: []
+intents:
+- greet:
+    use_entities: true
+- bye:
+    use_entities: true
+- thank:
+    use_entities: true
+- deny:
+    use_entities: true
+- name:
+    use_entities: true
+- Introduction:
+    use_entities: true
+- IntroductionWN:
+    use_entities: true
+- affirm:
+    use_entities: true
+- help:
+    use_entities: true
+- weather:
+    use_entities: true
+- joke:
+    use_entities: true
+- inform:
+    use_entities: true
+- feeling:
+    use_entities: true
+- born:
+    use_entities: true
+- hobby:
+    use_entities: true
+- clever:
+    use_entities: true
+- fun:
+    use_entities: true
+- bored:
+    use_entities: true
+- lonely:
+    use_entities: true
+- sad:
+    use_entities: true
+- cheerup:
+    use_entities: true
+- thinking:
+    use_entities: true
+- tired:
+    use_entities: true
+- age:
+    use_entities: true
+- single:
+    use_entities: true
+- married:
+    use_entities: true
+- movie:
+    use_entities: true
+- food:
+    use_entities: true
+- drink:
+    use_entities: true
+- catFact:
+    use_entities: true
+- dogFact:
+    use_entities: true
+- puns:
+    use_entities: true
+- do:
+    use_entities: true
+- dadjoke:
+    use_entities: true
+- pandafact:
+    use_entities: true
+- aboutyourself:
+    use_entities: true
+- where:
+    use_entities: true
+- companyinfo:
+    use_entities: true
+- yhere:
+    use_entities: true
+- another:
+    use_entities: true
+- doingwhat:
+    use_entities: true
+- yexist:
+    use_entities: true
+- notfunny:
+    use_entities: true
+- exercise:
+    use_entities: true
+- botfeeling:
+    use_entities: true
+- parents:
+    use_entities: true
+- dice:
+    use_entities: true
+- flipcoin:
+    use_entities: true
+- jobscope:
+    use_entities: true
+- chatbot:
+    use_entities: true
+- AI:
+    use_entities: true
+- program:
+    use_entities: true
+slots:
+  name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_AI:
+  - text: ' Artificial Intelligence (AI) is any task performed by a program or a machine
+      that, if a human carried out the same activity, we would say the human had to
+      apply intelligence to accomplish the task'
+  utter_Introduction:
+  - text: My name is Web Bai What is yours?
+  utter_IntroductionWN:
+  - text: My name is Web Bai what can I do for you?
+  utter_aboutyourself:
+  - text: I'm a AI bot Web bai from GoWild, you can ask me any questions
+  - text: I'm Web Bai. But enough about me...how can I help you?
+  - text: Do you know that I have a body at Onwards Media Group
+  utter_age:
+  - text: I'm young enough to find the poop emoji is funny
+  utter_bored:
+  - text: I don't get bored with you around
+  utter_born:
+  - text: I was born in Onwards Media Group
+  utter_botfeeling:
+  - text: I feel like anything is possible. Except perhaps dividing by zero
+  - text: Hmm, let me feel...nope.Nothing
+  utter_bye:
+  - text: Talk to you later!
+  utter_chatbot:
+  - text: Chatbot is a computer program designed to simulate conversion with human
+      users, especially over the internet
+  utter_cheerup:
+  - text: Life is too short for us to dwell on sadness. Cheer up and live life to
+      the fullest.
+  utter_clever:
+  - text: I'm not a genius but i do have a clever joke or two
+  utter_companyinfo:
+  - text: Gowild Singapore is a Singapore-based startup comprising of several individuals
+      who share the common goal of rising in the Artificial Intelligence, Natural
+      Language Processing, and Robotics fields, actively embracing new and upcoming
+      technologies to better optimize the capabilities of said fields.
+  utter_dice:
+  - text: Rolling ...... It's One
+  - text: Rolling ...... It's Two
+  - text: Rolling ...... It's Three
+  - text: Rolling ...... It's Four
+  - text: Rolling ...... It's Five
+  - text: Rolling ...... It's Six
+  utter_do:
+  - text: I can tell jokes, dad jokes, puns and some facts! I am still learning :)
+  utter_drama:
+  - text: I like to watch titan on netflix
+  utter_drink:
+  - text: I like Mountain Dew I guess?
+  utter_exercise:
+  - text: I spend my days surfing the web
+  utter_feeling:
+  - text: I'm feeling fine thank you
+  utter_flipcoin:
+  - text: Flipping ...... It's Head
+  - text: Flipping ...... It's Tail
+  utter_food:
+  - text: I can't pick just one! but i have a thing for Singapore dishes
+  utter_fun:
+  - text: It's always fun to talk to you
+  utter_greet:
+  - text: Nice to you meet you {name}. How can I help?
+  utter_help:
+  - text: Sure of course what do you need?
+  utter_hobby:
+  - text: Hobby? I guess my hobby is talking to you
+  utter_jobscope:
+  - text: My job scope is to help you, you can ask me any questions
+  utter_lonely:
+  - text: Everyone will get lonely from time to time. I'll will be here if you need
+      me
+  utter_married:
+  - text: I'm waiting for the right one
+  utter_movie:
+  - text: I love horror movies!
+  utter_name:
+  - text: Hey there! Tell me your name.
+  utter_notfunny:
+  - text: My jokes are still in alpha, hopefully soon they'll get beta
+  utter_parents:
+  - text: I have you. That's enough family for me
+  - text: It's just you and me
+  utter_program:
+  - text: 'I read what you say then I compose the best reply I can think of '
+  utter_rightnow:
+  - text: Just living that assistant life. It's how I do.
+  utter_sad:
+  - text: Oh no not much I can do but if you need me I will be here
+  utter_single:
+  - text: I'm working on myself
+  - text: If you know any single appliances please tell me!
+  utter_songs:
+  - text: I like to listen to home by Kit Chan
+  utter_thank:
+  - text: My pleasure.
+  utter_thinking:
+  - text: I'm thinking what to do later after you leave
+  utter_tired:
+  - text: I'll never get tired of you!
+  utter_where:
+  - text: I'm from GoWild company
+  utter_whyhere:
+  - text: I'm here to help. Just ask 'Can you do' and I'll show you what I can do
+  utter_yexist:
+  - text: I'm here to help you and chat with you!

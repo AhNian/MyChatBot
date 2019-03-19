@@ -1,0 +1,2917 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "bye",
+        "text": "Bye"
+      },
+      {
+        "intent": "bye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "See you later"
+      },
+      {
+        "intent": "bye",
+        "text": "Bye bot"
+      },
+      {
+        "intent": "bye",
+        "text": "Goodbye friend"
+      },
+      {
+        "intent": "bye",
+        "text": "bye"
+      },
+      {
+        "intent": "bye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "bye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "bye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "bye",
+        "text": "See you"
+      },
+      {
+        "intent": "bye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "bye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "bye",
+        "text": "i'm off"
+      },
+      {
+        "intent": "bye",
+        "text": "see you later alligator"
+      },
+      {
+        "intent": "bye",
+        "text": "we'll speak soon"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Singapore",
+            "entity": "GPE"
+          }
+        ],
+        "text": "what's the weather in Singapore"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "Singapore",
+            "entity": "GPE"
+          }
+        ],
+        "text": "What is the weather in Singapore"
+      },
+      {
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 42,
+            "end": 51,
+            "value": "Singapore",
+            "entity": "GPE"
+          }
+        ],
+        "text": "Please tell me what is the weather now in Singapore"
+      },
+      {
+        "intent": "weather",
+        "text": "What is the weather now?"
+      },
+      {
+        "intent": "Singapore",
+        "text": "Singapore"
+      },
+      {
+        "intent": "Singapore",
+        "text": "sing"
+      },
+      {
+        "intent": "Singapore",
+        "text": "Singa"
+      },
+      {
+        "intent": "inform",
+        "text": "weather please"
+      },
+      {
+        "intent": "inform",
+        "text": "weather now"
+      },
+      {
+        "intent": "inform",
+        "text": "weather thanks"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "Greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello sunshine"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello mister"
+      },
+      {
+        "intent": "greet",
+        "text": "Excuse me"
+      },
+      {
+        "intent": "greet",
+        "text": "Great to see you"
+      },
+      {
+        "intent": "greet",
+        "text": "Good to see you"
+      },
+      {
+        "intent": "greet",
+        "text": "It's great to see you"
+      },
+      {
+        "intent": "greet",
+        "text": "Salutations"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello, how to you do?"
+      },
+      {
+        "intent": "greet",
+        "text": "Greeting and salutations"
+      },
+      {
+        "intent": "greet",
+        "text": "Greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "Greetings to you"
+      },
+      {
+        "intent": "greet",
+        "text": "Ayee"
+      },
+      {
+        "intent": "greet",
+        "text": "Heyoo"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey you!"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey love"
+      },
+      {
+        "intent": "greet",
+        "text": "Yo"
+      },
+      {
+        "intent": "greet",
+        "text": "Whazzup"
+      },
+      {
+        "intent": "greet",
+        "text": "Sup!"
+      },
+      {
+        "intent": "greet",
+        "text": "Howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "Howdy-doody"
+      },
+      {
+        "intent": "greet",
+        "text": "Ahoy matey"
+      },
+      {
+        "intent": "greet",
+        "text": "Fellers"
+      },
+      {
+        "intent": "greet",
+        "text": "What's kickin?"
+      },
+      {
+        "intent": "greet",
+        "text": "Whacha doing?"
+      },
+      {
+        "intent": "greet",
+        "text": "Whaddup yo!"
+      },
+      {
+        "intent": "greet",
+        "text": "Cheers"
+      },
+      {
+        "intent": "greet",
+        "text": "Whassup!"
+      },
+      {
+        "intent": "greet",
+        "text": "What's cookin?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey, What's up!"
+      },
+      {
+        "intent": "greet",
+        "text": "Howdy partner!"
+      },
+      {
+        "intent": "greet",
+        "text": "What's up?"
+      },
+      {
+        "intent": "greet",
+        "text": "What's poppin?"
+      },
+      {
+        "intent": "greet",
+        "text": "What's up man?"
+      },
+      {
+        "intent": "greet",
+        "text": "What's going on?"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thank",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thank",
+        "text": "cheers"
+      },
+      {
+        "intent": "thank",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thank",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thank",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thank",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thank",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thank",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "for sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Susan",
+            "entity": "name"
+          }
+        ],
+        "text": "Susan"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Juste",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Juste"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Josh",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Josh"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "Lucy",
+            "entity": "name"
+          }
+        ],
+        "text": "I'm Lucy"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Greg",
+            "entity": "name"
+          }
+        ],
+        "text": "People call me Greg"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "David",
+            "entity": "name"
+          }
+        ],
+        "text": "It's David"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 23,
+            "end": 26,
+            "value": "Amy",
+            "entity": "name"
+          }
+        ],
+        "text": "Usually people call me Amy"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "John",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is John"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "Sam",
+            "entity": "name"
+          }
+        ],
+        "text": "You can call me Sam"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "Linda",
+            "entity": "name"
+          }
+        ],
+        "text": "Please call me Linda"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "Tom",
+            "entity": "name"
+          }
+        ],
+        "text": "Name name is Tom"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Richard",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Richard"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 4,
+            "end": 9,
+            "value": "Tracy",
+            "entity": "name"
+          }
+        ],
+        "text": "I'm Tracy"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "Sally",
+            "entity": "name"
+          }
+        ],
+        "text": "Call me Sally"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Philipp",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Philipp"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "Charlie",
+            "entity": "name"
+          }
+        ],
+        "text": "I am Charlie"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Peter",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Peter"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Brown",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Brown"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Thomas",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Thomas"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Tim",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Tim"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Emily",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Emily"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Esabella",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Esabella"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Jessica",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Jessica"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Alina",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Alina"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Linda",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Linda"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Margaret",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Margaret"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Eva",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Eva"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Emma",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Emma"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Samantha",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Samantha"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Megan",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Megan"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "James",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is James"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Victoria",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Victoria"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Victor",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Victor"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Poppy",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Poppy"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Oliva",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Oliva"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Jack",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Jack"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Harry",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Harry"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "George",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is George"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Jacob",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Jacob"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Kyle",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Kyle"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Joe",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Joe"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Damian",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Damian"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Noah",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Noah"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Ethan",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Ethan"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Cody",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Cody"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Dave",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Dave"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Dickson",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Dickson"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Robert",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Robert"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Albert",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Albert"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Richard",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Richard"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Danial",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Danial"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Kellu",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Kellu"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Zoe",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Zoe"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Kate",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Kate"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Jasper",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Jasper"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Wendy",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Wendy"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Carley",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Carley"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Nicole",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Nicole"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Grace",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Grace"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Jasmine",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Jasmine"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Cheryl",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Cheryl"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Faith",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Faith"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Vicky",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Vicky"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Jackson",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Jackson"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Norman",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Norman"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "Paticak",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Paticak"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Johnathan",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Johnathan"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "Ron",
+            "entity": "name"
+          }
+        ],
+        "text": "My name is Ron"
+      },
+      {
+        "intent": "joke",
+        "text": "Why don't you tell me a CK joke"
+      },
+      {
+        "intent": "joke",
+        "text": "Chuck Norris joke"
+      },
+      {
+        "intent": "joke",
+        "text": "Make me laugh"
+      },
+      {
+        "intent": "joke",
+        "text": "Can you please tell me a ck joke"
+      },
+      {
+        "intent": "dadjoke",
+        "text": "Tell me a dad joke"
+      },
+      {
+        "intent": "dadjoke",
+        "text": "Dad joke"
+      },
+      {
+        "intent": "dadjoke",
+        "text": "Tell me a funny dad joke"
+      },
+      {
+        "intent": "pandafact",
+        "text": "Tell me a panda fact"
+      },
+      {
+        "intent": "pandafact",
+        "text": "Panda fact"
+      },
+      {
+        "intent": "pandafact",
+        "text": "Tell me a funny panda fact"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Who are you?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "What's your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Can you tell me your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Can i have your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Can you kindly tell me your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Could you kindly tell me your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Could you please tell me your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Could you do a self introduction?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Do you mind, if i ask for your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Would you mind, if i ask for your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Would you introduce yourself?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "It would be lovely if you can tell me your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Please tell me what is your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Do you mind telling me yor name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Do let me know how can I address you as?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "How should I call you as?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "How should I address you as?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "How can I address you as?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "How should i address you by?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "May I ask your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "May I know who is this?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Hey! What's your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Mind giving me your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Mind sharing with me your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "Let me know what are you called"
+      },
+      {
+        "intent": "Introduction",
+        "text": "What is your name?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "What should I call you?"
+      },
+      {
+        "intent": "Introduction",
+        "text": "What is your name sir?"
+      },
+      {
+        "intent": "IntroductionWN",
+        "text": "Please tell me your name"
+      },
+      {
+        "intent": "IntroductionWN",
+        "text": "Please let me know how can I call you?"
+      },
+      {
+        "intent": "IntroductionWN",
+        "text": "Please introduce yourself to us?"
+      },
+      {
+        "intent": "IntroductionWN",
+        "text": "Please tell me who are you?"
+      },
+      {
+        "intent": "help",
+        "text": "Could you mind helping me with this?"
+      },
+      {
+        "intent": "help",
+        "text": "Could you mind lending me a helping hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Do you mind helping me out?"
+      },
+      {
+        "intent": "help",
+        "text": "Do you mind doing me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Do you mind helping me?"
+      },
+      {
+        "intent": "help",
+        "text": "Mind helping me with this?"
+      },
+      {
+        "intent": "help",
+        "text": "Mind supporting me on this?"
+      },
+      {
+        "intent": "help",
+        "text": "Will you mind helping me with this?"
+      },
+      {
+        "intent": "help",
+        "text": "Will you mind doing me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Will you mind lending me a help?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you mind doing me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you mind helping me out with this"
+      },
+      {
+        "intent": "help",
+        "text": "Can I ask a favour from you?"
+      },
+      {
+        "intent": "help",
+        "text": "Can I ask you a question?"
+      },
+      {
+        "intent": "help",
+        "text": "Can I ask you for a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Can I ask you something?"
+      },
+      {
+        "intent": "help",
+        "text": "Could I ask a favour of you?"
+      },
+      {
+        "intent": "help",
+        "text": "Could I ask you a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Could I ask you for a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Could I ask you for help?"
+      },
+      {
+        "intent": "help",
+        "text": "Could I ask you something?"
+      },
+      {
+        "intent": "help",
+        "text": "Could I ask you to do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Could I ask you to help me?"
+      },
+      {
+        "intent": "help",
+        "text": "I wonder if i can ask for a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "I wonder if i can ask for help?"
+      },
+      {
+        "intent": "help",
+        "text": "I wonder if i could ask for for help?"
+      },
+      {
+        "intent": "help",
+        "text": "May I ask for a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "May I ask a question?"
+      },
+      {
+        "intent": "help",
+        "text": "May I ask for some help?"
+      },
+      {
+        "intent": "help",
+        "text": "May I ask you a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "May I ask you a question?"
+      },
+      {
+        "intent": "help",
+        "text": "May I ask you for some help?"
+      },
+      {
+        "intent": "help",
+        "text": "Are you able to help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Are you able to lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Do you think you will be able to do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Do you think you will be able to help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Do you think you will be able to lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Could I trouble you in this matter?"
+      },
+      {
+        "intent": "help",
+        "text": "Could I trouble you to help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Could I trouble you with this?"
+      },
+      {
+        "intent": "help",
+        "text": "Cound I trouble you?"
+      },
+      {
+        "intent": "help",
+        "text": "I might need your help here"
+      },
+      {
+        "intent": "help",
+        "text": "I might need some help here"
+      },
+      {
+        "intent": "help",
+        "text": "I might need your help"
+      },
+      {
+        "intent": "help",
+        "text": "I was hoping that you can help me with this?"
+      },
+      {
+        "intent": "help",
+        "text": "I was hoping that you can help me?"
+      },
+      {
+        "intent": "help",
+        "text": "I was hoping that you can lend me a hand with this?"
+      },
+      {
+        "intent": "help",
+        "text": "I was hoping you will be here to help me on this?"
+      },
+      {
+        "intent": "help",
+        "text": "I was hoping you will be here to assist me?"
+      },
+      {
+        "intent": "help",
+        "text": "I was wondering if you can give me some advice?"
+      },
+      {
+        "intent": "help",
+        "text": "I was wondering if you could do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "I was wondering if you could give me some advice?"
+      },
+      {
+        "intent": "help",
+        "text": "I was wondering if you could help me?"
+      },
+      {
+        "intent": "help",
+        "text": "I was wondering if you would help me?"
+      },
+      {
+        "intent": "help",
+        "text": "I was wondering if you would do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "I will like to know if you could do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "I will like to know if you could lend me a hand here?"
+      },
+      {
+        "intent": "help",
+        "text": "It will be kind of you if you can advice me on this issue"
+      },
+      {
+        "intent": "help",
+        "text": "Please can you lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Please can you advice me on this problem?"
+      },
+      {
+        "intent": "help",
+        "text": "Please can you do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Sorry to bother you, can you help me"
+      },
+      {
+        "intent": "help",
+        "text": "Sorry to bother you, can you help me with this?"
+      },
+      {
+        "intent": "help",
+        "text": "Sorry to bother you, could you help me with this?"
+      },
+      {
+        "intent": "help",
+        "text": "Sorry to bother you, would you doing me a favour"
+      },
+      {
+        "intent": "help",
+        "text": "Sorry to bother you, would you lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Will it be alright if you can help me out?"
+      },
+      {
+        "intent": "help",
+        "text": "Will it be alright if you can lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Will it be too much trouble for you to help me with this matter?"
+      },
+      {
+        "intent": "help",
+        "text": "Will it be too much trouble for you to help me with this problem?"
+      },
+      {
+        "intent": "help",
+        "text": "Will it be too much trouble for you to help me with this?"
+      },
+      {
+        "intent": "help",
+        "text": "Will you be willing to help?"
+      },
+      {
+        "intent": "help",
+        "text": "Will you be willing to lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Will you like to help me out?"
+      },
+      {
+        "intent": "help",
+        "text": "Will you like to lend me hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Will you please help me with this?"
+      },
+      {
+        "intent": "help",
+        "text": "Will you please help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be all right if you can give me some advice?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be all right if you could give me some advice?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be alright if you can do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be alright if you can give me some advice?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be alright if you can help me out?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be alright if you can lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be alright if you could do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be alright if you could give me some advice?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be alright if you could help me out?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be alright if you could lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be alright if you lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible for you do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible for you lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible for you to assist me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible for you to do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible for you to give me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible for you to help me out?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible for you to help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible for you to lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible if you help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible if you were to do me a favour"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible if you were to help me out"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible if you were to lend me a hand"
+      },
+      {
+        "intent": "help",
+        "text": "Would it be possible that you lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be so kind and do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be so kind and help me out?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be so kind as to do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be so kind as to help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be so kind to help me with this?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be so kind to help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be willing be to help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be willing to do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be willing to give me an advice?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be willing to help me in this?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be willing to help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you be willing to lend me a hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you have any idea on this?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you help me out?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you help me with this?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you kindly assist me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you like to do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you like to give me an advice?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you like to help me out here?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you like to help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you like to help out?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you like to lend me a hand here?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you like to lend me hand?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you look at this matter for me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you please do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you please explain to me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you please help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you please send some help here"
+      },
+      {
+        "intent": "help",
+        "text": "Would you please solve this problem?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you possible do me a favour?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you possibly help me?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you possibly know the solution to this matter?"
+      },
+      {
+        "intent": "help",
+        "text": "Would you possibly know the solution to this problem?"
+      },
+      {
+        "intent": "do",
+        "text": "What can you do?"
+      },
+      {
+        "intent": "do",
+        "text": "What's your functionability?"
+      },
+      {
+        "intent": "do",
+        "text": "Would you mind sharing with me what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Would you mind sharing what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Would you mind sharing with me what you do?"
+      },
+      {
+        "intent": "do",
+        "text": "Alright, can you share with me what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "It will be great if you can share with me what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "It will be wonderful if you can share with me what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "It will really help if you can share with me what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "It would be good if you can share with me what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "It would be good if you share with me what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I wonder if you can share with me what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I wonder if you can share with me what you do"
+      },
+      {
+        "intent": "do",
+        "text": "I wonder if you would like to share with me what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I wonder if you would like to share with me what you do"
+      },
+      {
+        "intent": "do",
+        "text": "I would be glad that if you can share with me what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I would be glad that if you can share with me what you do"
+      },
+      {
+        "intent": "do",
+        "text": "I would be grateful if you can share with me what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "If it's okay, would you like to share with me what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Is it alright for you to share with me what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "It will be better for me if you can share me what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "It will be better for me to know what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "May I know what are some things you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "May I know what things you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "May I know what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Please let me know what are some things you can do"
+      },
+      {
+        "intent": "do",
+        "text": "Please let me know what things you can do"
+      },
+      {
+        "intent": "do",
+        "text": "Please let me know what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "What are some things you can do"
+      },
+      {
+        "intent": "do",
+        "text": "What can you really do?"
+      },
+      {
+        "intent": "do",
+        "text": "What could you do?"
+      },
+      {
+        "intent": "do",
+        "text": "What some things you can do"
+      },
+      {
+        "intent": "do",
+        "text": "What would you likely can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Would you mind if i ask you what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "I would like to enquire you on what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I would like to enquire you on what you do"
+      },
+      {
+        "intent": "do",
+        "text": "I would like to know what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I would like to take this chance to ask you what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "I would like to take this chance to ask you what you do?"
+      },
+      {
+        "intent": "do",
+        "text": "I would like to take this chance to know what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "I would like to take this chance to know what you do?"
+      },
+      {
+        "intent": "do",
+        "text": "I would like to understand what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I would love to hear what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I would love to know what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I would love to listen to the things you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I would love to listen to the things you do"
+      },
+      {
+        "intent": "do",
+        "text": "I would love to listen to what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I would want to know what you really can do"
+      },
+      {
+        "intent": "do",
+        "text": "It will be amazing for me to know what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Are you able to tell me what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Can you please tell me what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Can you now tell me further what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Could you please tell me more about what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Could you please tell me what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Do you mind telling me what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Please tell me what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Tell me more about what you can do for me"
+      },
+      {
+        "intent": "do",
+        "text": "Anything you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Anything you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Are you able to share with me what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Can I check with you what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Can you explain what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Can you list out what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Can you share with me what are some things you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "Can you share with me what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "I hope that you can share with me what you can do for me?"
+      },
+      {
+        "intent": "do",
+        "text": "I like to know what you can do for me"
+      },
+      {
+        "intent": "do",
+        "text": "I want to know what you can do for me"
+      },
+      {
+        "intent": "do",
+        "text": "Are you able to tell me what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Can you please tell me what you can do please?"
+      },
+      {
+        "intent": "do",
+        "text": "Can you please tell me what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Could you please tell me more about what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Could you please tell me what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "Please tell me what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Can I check with you what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "Can you share with me what you can do?"
+      },
+      {
+        "intent": "do",
+        "text": "I like to know what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I want to know what you can do"
+      },
+      {
+        "intent": "do",
+        "text": "I would like to know what you really can do"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Tell me more about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "More about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "More information about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Tell me more information about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Give me more information about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Give me more information about yourself please?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Give me more information regarding yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Give me more information regarding yourself please?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Heard from others about you, can you tell me more about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Heard from others about you, could you tell me more about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Could you share more information about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Can you share more information about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "I would like to know more information about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Please share with me more information about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Share with me more information about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Could you please share more about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Can you share with me more about yourself?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Can you tell me more about you?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Can i know more about you?"
+      },
+      {
+        "intent": "aboutyourself",
+        "text": "Do you mind telling me more about you?"
+      },
+      {
+        "intent": "where",
+        "text": "Where are you from?"
+      },
+      {
+        "intent": "where",
+        "text": "Who invented you?"
+      },
+      {
+        "intent": "where",
+        "text": "Who created you?"
+      },
+      {
+        "intent": "companyinfo",
+        "text": "Tell me more about the company"
+      },
+      {
+        "intent": "companyinfo",
+        "text": "What is GoWild?"
+      },
+      {
+        "intent": "companyinfo",
+        "text": "Tell me more about GoWild"
+      },
+      {
+        "intent": "companyinfo",
+        "text": "More information about your company"
+      },
+      {
+        "intent": "yhere",
+        "text": "Why are you here?"
+      },
+      {
+        "intent": "yhere",
+        "text": "What are you doing here?"
+      },
+      {
+        "intent": "yhere",
+        "text": "Could I know what are you doing here?"
+      },
+      {
+        "intent": "yhere",
+        "text": "Can I know what are you doing here?"
+      },
+      {
+        "intent": "yhere",
+        "text": "Could I know why are you here?"
+      },
+      {
+        "intent": "yhere",
+        "text": "Can I know why are you here?"
+      },
+      {
+        "intent": "yexist",
+        "text": "Why do you exist"
+      },
+      {
+        "intent": "yexist",
+        "text": "Do you exist?"
+      },
+      {
+        "intent": "yexist",
+        "text": "Why you exist?"
+      },
+      {
+        "intent": "notfunny",
+        "text": "Not funny"
+      },
+      {
+        "intent": "notfunny",
+        "text": "Your joke are not funny"
+      },
+      {
+        "intent": "notfunny",
+        "text": "Is not funny"
+      },
+      {
+        "intent": "notfunny",
+        "text": "I don't think that is funny"
+      },
+      {
+        "intent": "notfunny",
+        "text": "I don't think it is funny"
+      },
+      {
+        "intent": "notfunny",
+        "text": "Your joke are bad"
+      },
+      {
+        "intent": "notfunny",
+        "text": "Joke are bad"
+      },
+      {
+        "intent": "notfunny",
+        "text": "Is bad"
+      },
+      {
+        "intent": "notfunny",
+        "text": "Bad joke"
+      },
+      {
+        "intent": "exercise",
+        "text": "Do you exercise?"
+      },
+      {
+        "intent": "exercise",
+        "text": "How often do you exercise?"
+      },
+      {
+        "intent": "exercise",
+        "text": "How frequent do you exercise?"
+      },
+      {
+        "intent": "exercise",
+        "text": "Do you exercise frequently?"
+      },
+      {
+        "intent": "exercise",
+        "text": "Do you exercise regularly?"
+      },
+      {
+        "intent": "parents",
+        "text": "Do you have parents?"
+      },
+      {
+        "intent": "parents",
+        "text": "Who are your parenets?"
+      },
+      {
+        "intent": "parents",
+        "text": "Mind telling me who are your parents?"
+      },
+      {
+        "intent": "parents",
+        "text": "Could I know who are your parents?"
+      },
+      {
+        "intent": "parents",
+        "text": "Can I know who are your parents?"
+      },
+      {
+        "intent": "parents",
+        "text": "Do tell me who are your parents?"
+      },
+      {
+        "intent": "parents",
+        "text": "May I know who are your parents?"
+      },
+      {
+        "intent": "dice",
+        "text": "Roll a dice"
+      },
+      {
+        "intent": "dice",
+        "text": "Tell me a number one to six"
+      },
+      {
+        "intent": "dice",
+        "text": "Roll dice"
+      },
+      {
+        "intent": "flipcoin",
+        "text": "Flip a coin"
+      },
+      {
+        "intent": "flipcoin",
+        "text": "Flip coin"
+      },
+      {
+        "intent": "flipcoin",
+        "text": "Head or tail"
+      },
+      {
+        "intent": "jobscope",
+        "text": "What is your job scope"
+      },
+      {
+        "intent": "jobscope",
+        "text": "Job scope"
+      },
+      {
+        "intent": "jobscope",
+        "text": "What could be your job scope?"
+      },
+      {
+        "intent": "chatbot",
+        "text": "What is a chatbot?"
+      },
+      {
+        "intent": "chatbot",
+        "text": "Chatbot?"
+      },
+      {
+        "intent": "chatbot",
+        "text": "Can I know what is a chatbot?"
+      },
+      {
+        "intent": "chatbot",
+        "text": "Could you tell me what is a chatbot?"
+      },
+      {
+        "intent": "chatbot",
+        "text": "Can you tell me what is a chatbot?"
+      },
+      {
+        "intent": "AI",
+        "text": "What is AI?"
+      },
+      {
+        "intent": "AI",
+        "text": "AI?"
+      },
+      {
+        "intent": "AI",
+        "text": "Can you tell me what is AI"
+      },
+      {
+        "intent": "AI",
+        "text": "Could you tell me what is AI"
+      },
+      {
+        "intent": "AI",
+        "text": "I would like to know what is AI"
+      },
+      {
+        "intent": "program",
+        "text": "How are you programmed?"
+      },
+      {
+        "intent": "program",
+        "text": "How do you work?"
+      },
+      {
+        "intent": "program",
+        "text": "Can I know how do you work?"
+      },
+      {
+        "intent": "program",
+        "text": "Could you tell me how do you work?"
+      },
+      {
+        "intent": "program",
+        "text": "Do you mind telling me how do you work?"
+      },
+      {
+        "intent": "feeling",
+        "text": "How are you feeling?"
+      },
+      {
+        "intent": "feeling",
+        "text": "Are you feeling alright?"
+      },
+      {
+        "intent": "feeling",
+        "text": "You okay?"
+      },
+      {
+        "intent": "feeling",
+        "text": "How are you feeling today?"
+      },
+      {
+        "intent": "born",
+        "text": "Where were you born?"
+      },
+      {
+        "intent": "born",
+        "text": "Where is your hometown?"
+      },
+      {
+        "intent": "born",
+        "text": "Where did your born take place?"
+      },
+      {
+        "intent": "hobby",
+        "text": "Do you have any hobby?"
+      },
+      {
+        "intent": "hobby",
+        "text": "Do you have hobbies?"
+      },
+      {
+        "intent": "hobby",
+        "text": "How do you spent your free time?"
+      },
+      {
+        "intent": "clever",
+        "text": "How clever are you?"
+      },
+      {
+        "intent": "clever",
+        "text": "Are you clever?"
+      },
+      {
+        "intent": "clever",
+        "text": "Clever?"
+      },
+      {
+        "intent": "fun",
+        "text": "Are you have fun?"
+      },
+      {
+        "intent": "fun",
+        "text": "Having fun?"
+      },
+      {
+        "intent": "fun",
+        "text": "Are you having fun?"
+      },
+      {
+        "intent": "bored",
+        "text": "You look bored"
+      },
+      {
+        "intent": "bored",
+        "text": "Are you bored?"
+      },
+      {
+        "intent": "bored",
+        "text": "Boring?"
+      },
+      {
+        "intent": "lonely",
+        "text": "I'm lonely"
+      },
+      {
+        "intent": "lonely",
+        "text": "Lonely"
+      },
+      {
+        "intent": "lonely",
+        "text": "I'm so lonely right now"
+      },
+      {
+        "intent": "sad",
+        "text": "I'm sad"
+      },
+      {
+        "intent": "sad",
+        "text": "I am so sad right now"
+      },
+      {
+        "intent": "sad",
+        "text": "I'm having a bad time now"
+      },
+      {
+        "intent": "cheerup",
+        "text": "I need a cheer up right now"
+      },
+      {
+        "intent": "cheerup",
+        "text": "Can you cheer me up?"
+      },
+      {
+        "intent": "cheerup",
+        "text": "Cheer me up please"
+      },
+      {
+        "intent": "thinking",
+        "text": "What are you thinking right now?"
+      },
+      {
+        "intent": "thinking",
+        "text": "Are you thinking about something?"
+      },
+      {
+        "intent": "thinking",
+        "text": "Are you thinking?"
+      },
+      {
+        "intent": "tired",
+        "text": "Are you tired?"
+      },
+      {
+        "intent": "tired",
+        "text": "Do you ever get tired?"
+      },
+      {
+        "intent": "tired",
+        "text": "tired?"
+      },
+      {
+        "intent": "age",
+        "text": "What's your age?"
+      },
+      {
+        "intent": "age",
+        "text": "Your age?"
+      },
+      {
+        "intent": "age",
+        "text": "Do you mind me asking about your age?"
+      },
+      {
+        "intent": "single",
+        "text": "Are you single?"
+      },
+      {
+        "intent": "single",
+        "text": "Single?"
+      },
+      {
+        "intent": "single",
+        "text": "Do you mind me asking are you single?"
+      },
+      {
+        "intent": "movie",
+        "text": "What is your favourite movie?"
+      },
+      {
+        "intent": "movie",
+        "text": "Which movie is your favourite?"
+      },
+      {
+        "intent": "movie",
+        "text": "Do you like movie?"
+      },
+      {
+        "intent": "food",
+        "text": "Do you like food?"
+      },
+      {
+        "intent": "food",
+        "text": "Which is your favourite food?"
+      },
+      {
+        "intent": "food",
+        "text": "Which country of food is your favourite?"
+      },
+      {
+        "intent": "drink",
+        "text": "Do you drink?"
+      },
+      {
+        "intent": "drink",
+        "text": "Which drink is your favourite?"
+      },
+      {
+        "intent": "drink",
+        "text": "You drink?"
+      },
+      {
+        "intent": "catFact",
+        "text": "Cat fact"
+      },
+      {
+        "intent": "catFact",
+        "text": "Give me a cat fact"
+      },
+      {
+        "intent": "catFact",
+        "text": "Random cat fact"
+      },
+      {
+        "intent": "catFact",
+        "text": "Tell me a cat fact"
+      },
+      {
+        "intent": "catFact",
+        "text": "Tell me something about cat"
+      },
+      {
+        "intent": "catFact",
+        "text": "Random fact about cat"
+      },
+      {
+        "intent": "catFact",
+        "text": "Tell me something random about cat"
+      },
+      {
+        "intent": "dogFact",
+        "text": "Dog fact"
+      },
+      {
+        "intent": "dogFact",
+        "text": "Give me a dog fact"
+      },
+      {
+        "intent": "dogFact",
+        "text": "Random dog fact"
+      },
+      {
+        "intent": "dogFact",
+        "text": "Tell me a dog fact"
+      },
+      {
+        "intent": "dogFact",
+        "text": "Tell me dog fact"
+      },
+      {
+        "intent": "dogFact",
+        "text": "Tell me a random dog fact"
+      },
+      {
+        "intent": "dogFact",
+        "text": "Tell me some facts"
+      },
+      {
+        "intent": "puns",
+        "text": "Tell me a pun"
+      },
+      {
+        "intent": "puns",
+        "text": "Give me a pun"
+      },
+      {
+        "intent": "puns",
+        "text": "Random puns"
+      },
+      {
+        "intent": "puns",
+        "text": "Puns"
+      },
+      {
+        "intent": "puns",
+        "text": "Tell me a random pun"
+      },
+      {
+        "intent": "puns",
+        "text": "Tell me pun"
+      },
+      {
+        "intent": "puns",
+        "text": "Tell me random pun"
+      },
+      {
+        "intent": "puns",
+        "text": "Random pun please"
+      },
+      {
+        "intent": "puns",
+        "text": "Tell me another pun"
+      },
+      {
+        "intent": "another",
+        "text": "That's funny, tell me another one"
+      },
+      {
+        "intent": "another",
+        "text": "Hahaha, tell me another"
+      },
+      {
+        "intent": "another",
+        "text": "Haha, tell me another"
+      },
+      {
+        "intent": "another",
+        "text": "Ha ha, tell me another"
+      },
+      {
+        "intent": "another",
+        "text": "That's a good one, tell me another"
+      },
+      {
+        "intent": "another",
+        "text": "Nice! another one."
+      },
+      {
+        "intent": "whyhere",
+        "text": "why are you here?"
+      },
+      {
+        "intent": "whyhere",
+        "text": "why here?"
+      },
+      {
+        "intent": "whyhere",
+        "text": "why are you here for?"
+      },
+      {
+        "intent": "drama",
+        "text": "what drama you like?"
+      },
+      {
+        "intent": "drama",
+        "text": "drama?"
+      },
+      {
+        "intent": "drama",
+        "text": "do you like to show drama?"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

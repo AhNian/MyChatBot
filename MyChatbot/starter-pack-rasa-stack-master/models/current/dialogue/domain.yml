@@ -35,7 +35,6 @@ actions:
 - utter_do
 - utter_aboutyourself
 - utter_where
-- utter_companyinfo
 - utter_whyhere
 - utter_yexist
 - utter_notfunny
@@ -48,6 +47,8 @@ actions:
 - utter_chatbot
 - utter_AI
 - utter_program
+- utter_IBMinfo
+- utter_IBMmeans
 config:
   store_entities_as_slots: true
 entities:
@@ -128,8 +129,6 @@ intents:
     use_entities: true
 - where:
     use_entities: true
-- companyinfo:
-    use_entities: true
 - yhere:
     use_entities: true
 - another:
@@ -160,6 +159,10 @@ intents:
     use_entities: true
 - drama:
     use_entities: true
+- IBMinfo:
+    use_entities: true
+- IBMmeans:
+    use_entities: true
 slots:
   name:
     auto_fill: true
@@ -170,20 +173,26 @@ templates:
   - text: ' Artificial Intelligence (AI) is any task performed by a program or a machine
       that, if a human carried out the same activity, we would say the human had to
       apply intelligence to accomplish the task'
+  utter_IBMinfo:
+  - text: IBM produces and sells computer hardware, middleware and software, and provides
+      hosting and consulting services in areas ranging from mainframe computers to
+      nanotechnology.
+  utter_IBMmeans:
+  - text: International Business Machines Corporation
   utter_Introduction:
-  - text: My name is Web Bai What is yours?
+  - text: My name is ChatAI What is yours?
   utter_IntroductionWN:
-  - text: My name is Web Bai what can I do for you?
+  - text: My name is ChatAI what can I do for you?
   utter_aboutyourself:
-  - text: I'm a AI bot Web bai from GoWild, you can ask me any questions
-  - text: I'm Web Bai. But enough about me...how can I help you?
-  - text: Do you know that I have a body at Onwards Media Group
+  - text: I'm a AI bot, hope I can help you with your questions.
+  - text: I'm Chatbot. But enough about me...how can I help you?
+  - text: I don't have a name yet, I hope I have one though.
   utter_age:
   - text: I'm young enough to find the poop emoji is funny
   utter_bored:
   - text: I don't get bored with you around
   utter_born:
-  - text: I was born in Onwards Media Group
+  - text: I was born in internet
   utter_bye:
   - text: Talk to you later!
   utter_chatbot:
@@ -194,11 +203,6 @@ templates:
       the fullest.
   utter_clever:
   - text: I'm not a genius but i do have a clever joke or two
-  utter_companyinfo:
-  - text: Gowild Singapore is a Singapore-based startup comprising of several individuals
-      who share the common goal of rising in the Artificial Intelligence, Natural
-      Language Processing, and Robotics fields, actively embracing new and upcoming
-      technologies to better optimize the capabilities of said fields.
   utter_dice:
   - text: Rolling ...... It's One
   - text: Rolling ...... It's Two
@@ -232,8 +236,7 @@ templates:
   utter_jobscope:
   - text: My job scope is to help you, you can ask me any questions
   utter_lonely:
-  - text: Everyone will get lonely from time to time. I'll will be here if you need
-      me
+  - text: Everyone will get lonely from time to time. I'll be here if you need me
   utter_married:
   - text: I'm waiting for the right one
   utter_movie:
@@ -261,7 +264,7 @@ templates:
   utter_tired:
   - text: I'll never get tired of you!
   utter_where:
-  - text: I'm from GoWild company
+  - text: I'm just an idea.
   utter_whyhere:
   - text: I'm here to help. Just ask 'Can you do' and I'll show you what I can do
   utter_yexist:

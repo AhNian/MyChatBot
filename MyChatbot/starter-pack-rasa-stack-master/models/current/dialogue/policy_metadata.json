@@ -8,55 +8,19 @@
     "utter_notfunny": {
       "slots": []
     },
-    "utter_companyinfo": {
-      "slots": []
-    },
-    "utter_yexist": {
+    "utter_lonely": {
       "slots": []
     },
     "utter_bye": {
       "slots": []
     },
-    "utter_hobby": {
+    "utter_program": {
       "slots": []
     },
-    "utter_chatbot": {
-      "slots": []
-    },
-    "action_dogFact": {
-      "slots": []
-    },
-    "utter_whyhere": {
-      "slots": []
-    },
-    "utter_single": {
-      "slots": []
-    },
-    "utter_parents": {
-      "slots": []
-    },
-    "utter_tired": {
-      "slots": []
-    },
-    "action_pun": {
-      "slots": []
-    },
-    "utter_jobscope": {
+    "action_joke": {
       "slots": []
     },
     "action_catFact": {
-      "slots": []
-    },
-    "utter_dice": {
-      "slots": []
-    },
-    "utter_help": {
-      "slots": []
-    },
-    "utter_do": {
-      "slots": []
-    },
-    "utter_food": {
       "slots": []
     },
     "utter_thank": {
@@ -68,62 +32,103 @@
     "utter_flipcoin": {
       "slots": []
     },
-    "utter_where": {
-      "slots": []
-    },
-    "utter_sad": {
-      "slots": []
-    },
-    "utter_program": {
-      "slots": []
-    },
-    "utter_Introduction": {
-      "slots": []
-    },
-    "utter_bored": {
-      "slots": []
-    },
-    "utter_cheerup": {
-      "slots": []
-    },
-    "utter_movie": {
-      "slots": []
-    },
-    "utter_feeling": {
-      "slots": []
-    },
-    "utter_lonely": {
-      "slots": []
-    },
-    "action_dadjoke": {
-      "slots": []
-    },
-    "utter_age": {
-      "slots": []
-    },
-    "action_pandafact": {
-      "slots": []
-    },
-    "utter_thinking": {
-      "slots": []
-    },
-    "utter_exercise": {
+    "utter_tired": {
       "slots": []
     },
     "utter_born": {
       "slots": []
     },
-    "action_joke": {
+    "utter_parents": {
+      "slots": []
+    },
+    "utter_jobscope": {
+      "slots": []
+    },
+    "utter_where": {
+      "slots": []
+    },
+    "utter_yexist": {
+      "slots": []
+    },
+    "utter_Introduction": {
+      "slots": []
+    },
+    "utter_dice": {
+      "slots": []
+    },
+    "action_dogFact": {
+      "slots": []
+    },
+    "utter_drama": {
+      "slots": []
+    },
+    "utter_help": {
+      "slots": []
+    },
+    "utter_chatbot": {
+      "slots": []
+    },
+    "utter_movie": {
+      "slots": []
+    },
+    "utter_fun": {
+      "slots": []
+    },
+    "action_dadjoke": {
+      "slots": []
+    },
+    "utter_IBMinfo": {
+      "slots": []
+    },
+    "utter_thinking": {
+      "slots": []
+    },
+    "utter_bored": {
+      "slots": []
+    },
+    "utter_food": {
+      "slots": []
+    },
+    "action_pandafact": {
+      "slots": []
+    },
+    "utter_sad": {
+      "slots": []
+    },
+    "action_pun": {
+      "slots": []
+    },
+    "utter_single": {
+      "slots": []
+    },
+    "utter_feeling": {
+      "slots": []
+    },
+    "utter_drink": {
+      "slots": []
+    },
+    "utter_hobby": {
+      "slots": []
+    },
+    "utter_IBMmeans": {
       "slots": []
     },
     "utter_AI": {
       "slots": []
     },
-    "utter_drink": {
+    "utter_whyhere": {
+      "slots": []
+    },
+    "utter_cheerup": {
+      "slots": []
+    },
+    "utter_do": {
+      "slots": []
+    },
+    "utter_IntroductionWN": {
       "slots": []
     }
   },
-  "rasa_core": "0.12.0",
   "python": "3.6.8",
   "max_histories": [
     3,
@@ -134,5 +139,8 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy"
   ],
-  "trained_at": "20190318-183910"
+  "trained_at": "20190321-171648",
+  "rasa_core": "0.13.4",
+  "tensorflow": "1.12.0",
+  "sklearn": "0.20.3"
 }

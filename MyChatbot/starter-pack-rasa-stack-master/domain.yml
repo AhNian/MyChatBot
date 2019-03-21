@@ -52,6 +52,7 @@ intents:
 - whyhere
 - drama
 - IBMinfo
+- IBMmeans
 
 entities:
 - name
@@ -108,6 +109,7 @@ actions:
 - utter_AI
 - utter_program
 - utter_IBMinfo
+- utter_IBMmeans
 
 templates:
   utter_name:
@@ -195,7 +197,7 @@ templates:
   - text: "I'm just an idea."
   
   utter_whyhere:
-  - text: "I'm here to help. Just ask 'Can you do' and I'll show you what I can do"
+  - text: "I'm here to help. Just ask 'What can you do' and I'll show you what I can do"
   
   utter_yexist:
   - text: "I'm here to help you and chat with you!"
@@ -242,3 +244,6 @@ templates:
   
   utter_IBMinfo:
   - text: "IBM produces and sells computer hardware, middleware and software, and provides hosting and consulting services in areas ranging from mainframe computers to nanotechnology."
+  
+  utter_IBMmeans:
+  - text: "International Business Machines Corporation"

@@ -29,9 +29,15 @@
 - Singa
 
 ## intent:IBMinfo
-- What IBM do?
-- What's IBM?
-- IBM?
+- Can you tell me more about IBM?
+- Please tell me more about IBM
+- More info on IBM please
+
+## intent:IBMmeans
+- What's IBM mean?
+- What's IBM stands for?
+- What is IBM stands for?
+- Please tell me what does IBM means?
 
 ## intent:inform
 - weather please
@@ -684,6 +690,6 @@
 - why are you here for?
 
 ## intent:drama
-- what drama you like?
+- what drama do you like?
 - drama?
 - do you like to show drama?

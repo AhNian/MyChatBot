@@ -1,11 +1,110 @@
 <html>
    <body>
-      
+   
+	<style>
+		h 
+		{
+			color: Black;
+			text-align: center;
+			font-size: 50px;
+		}
+		
+		body 
+		{
+			background-color: #FFC0CB;
+		}
+		
+	* {
+		box-sizing: border-box;
+	  }
+
+	
+	.column
+	{
+		float: left;
+		width: 50%;
+		padding: 10px;
+	}
+	
+	.row:after 
+	{
+		content: "";
+		display: table;
+		clear: both;
+	}
+		
+	</style>
+			
+      <h>Hello World, IBM Cloud</h>
+	  
       <form action = "http://localhost:5000/bot_input" method = "post">
-         <p>{{message}}</p>
+         <p><strong>{{message}}</strong></p>
          <p>Me : <input type="text" size="100" name="msg"></p>
          <p><input type = "submit" value = "send" /></p>
       </form>
+	  
+	 <br>
+	 <br>
+
+	<div class="row">
+	<div class="column">
+		<h2>What can you ask the chat-bot?</h2>
+		<p2><strong>Here is some examples</strong></p2>
+
+		<ul style="list-style-type:disc;">
+		<li>Please tell me more about IBM</li>
+		<li>IBM?</li>
+		<li>Thanks</li>
+		<li>absolutely</li>
+		<li>My name is *your name*</li>
+		<li>Who are you?</li>
+		<li>Please tell me your name</li>
+		<li>Could you mind helping me with this?</li>
+		<li>What can you do?</li>
+		<li>Tell me more about yourself?</li>
+		<li>Where are you from?</li>
+		<li>Why are you here?</li>
+		<li>Why do you exist</li>
+		<li>Do you exercise?</li>
+		<li>Who are your parents?</li>
+		<li>Roll a dice</li>
+		<li>File a coin</li>
+		<li>What is your job scope</li>
+		<li>What is a chatbot?</li>
+		<li>What is AI?</li>
+		<li>How are you programmed?</li>
+		<li>How are you feeling?</li>
+		<li>Where were you born</li>
+		<li>Do you have any hobby?</li>
+		<li>How clever are you?</li>
+		<li>Having fun?</li>
+		<li>you look bored</li>
+		<li>I'm lonely</li>
+		<li>I'm sad</li>
+		<li>I need a cheer up right now</li>
+		<li>What are you thinking right now?</li>
+		<li>Are you tired?</li>
+		<li>Your age?</li>
+		<li>Are you single?</li>
+		<li>What us your favorite movie?</li>
+		<li>Do you like?</li>
+		<li>Do you drink?</li>
+		<li>Why are you here?</li>
+		<li>what drama do you like?</li>
+		</ul>
+	</div>
+		
+		<div class="column">
+		<h2>Here are all the API command</h2>
+		<p2><strong>Here is some examples</strong></p2>
+		<ul style="list-style-type:disc;">
+		<li>Give me a dog fact</li>
+		<li>Tell me a pun</li>
+		<li>Tell me a funny dad joke</li>
+		<li>Panda fact</li>
+		<li>Chuck Norris joke</li>
+		</ul>
+		</div>
       
    </body>
 </html>

@@ -3,15 +3,15 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
+from rasa_core_sdk import Action
+from rasa_core_sdk.events import SlotSet
+
+# http://weather.yahoo.com
+# from weather import Weather, Unit
 
 import logging
 import requests
 import json
-from rasa_core_sdk import Action
-
-# http://weather.yahoo.com
-from weather import Weather, Unit
-from rasa_core_sdk.events import SlotSet
 
 
 logger = logging.getLogger(__name__)

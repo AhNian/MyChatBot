@@ -114,6 +114,30 @@
         "text": "Singa"
       },
       {
+        "intent": "IBMinfo",
+        "text": "Can you tell me more about IBM?"
+      },
+      {
+        "intent": "IBMinfo",
+        "text": "Please tell me more about IBM"
+      },
+      {
+        "intent": "IBMinfo",
+        "text": "More info on IBM please"
+      },
+      {
+        "intent": "IBMmeans",
+        "text": "What's IBM mean?"
+      },
+      {
+        "intent": "IBMmeans",
+        "text": "What's IBM stands for?"
+      },
+      {
+        "intent": "IBMmeans",
+        "text": "What is IBM stands for?"
+      },
+      {
         "intent": "inform",
         "text": "weather please"
       },
@@ -2342,22 +2366,6 @@
         "text": "Who created you?"
       },
       {
-        "intent": "companyinfo",
-        "text": "Tell me more about the company"
-      },
-      {
-        "intent": "companyinfo",
-        "text": "What is GoWild?"
-      },
-      {
-        "intent": "companyinfo",
-        "text": "Tell me more about GoWild"
-      },
-      {
-        "intent": "companyinfo",
-        "text": "More information about your company"
-      },
-      {
         "intent": "yhere",
         "text": "Why are you here?"
       },
@@ -2899,7 +2907,7 @@
       },
       {
         "intent": "drama",
-        "text": "what drama you like?"
+        "text": "what drama do you like?"
       },
       {
         "intent": "drama",

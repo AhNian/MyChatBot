@@ -2,17 +2,16 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
-
 from flask import Flask, request, render_template
 from rasa_core.agent import Agent
 from rasa_core.utils import read_endpoint_config
-
+from rasa_core import utils
+from rasa_core.interpreter import RasaNLUInterpreter
 
 import argparse
 import warnings
 
-from rasa_core import utils
-from rasa_core.interpreter import RasaNLUInterpreter
+
 
 endpoint = read_endpoint_config('endpoints.yml', 'action_endpoint')
 
@@ -22,7 +21,7 @@ agent = Agent.load('models/current/dialogue', interpreter='models/current/nlu', 
 
 @app.route('/')
 def load_webpage():
-	hello = "Hello World, IBM Cloud! you can ask me question in this window. Type 'stop' to end the conversation."
+	hello = "Hello! you can ask me question in this window. Type 'stop' to end the conversation."
 	return render_template('bot_input.html', message=hello)
 	
 

@@ -2,11 +2,11 @@
 In order to run need to install RASA Core
 
 Things to install
-Python 3.6
-pip install rasa_core
-pip install rasa_nlu[tensorflow]
-pip install spacy
-choco install make
+1)Python 3.6
+2)pip install rasa_core
+3)pip install rasa_nlu[tensorflow]
+5)pip install spacy
+5)choco install make
 
 Once downloaded the file
 In python command prompt run pip install -r requirements.txt

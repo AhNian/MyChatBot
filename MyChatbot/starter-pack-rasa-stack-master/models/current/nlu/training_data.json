@@ -138,6 +138,10 @@
         "text": "What is IBM stands for?"
       },
       {
+        "intent": "IBMmeans",
+        "text": "Please tell me what does IBM means?"
+      },
+      {
         "intent": "inform",
         "text": "weather please"
       },

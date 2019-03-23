@@ -266,6 +266,7 @@ templates:
   utter_where:
   - text: I'm just an idea.
   utter_whyhere:
-  - text: I'm here to help. Just ask 'Can you do' and I'll show you what I can do
+  - text: I'm here to help. Just ask 'What can you do' and I'll show you what I can
+      do
   utter_yexist:
   - text: I'm here to help you and chat with you!

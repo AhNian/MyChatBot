@@ -15,5 +15,5 @@ steps to run
 1) make train-nlu
 2) make train-core
 3) python main.py
-4) python -m rasa_core_sdk.endpoint --actions actions (on another command prompt)
+4) python -m rasa_core_sdk.endpoint --actions actions (on another python command prompt)
 5) in internet browser go to http://localhost:5000/
